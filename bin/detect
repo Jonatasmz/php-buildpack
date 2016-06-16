@@ -1,9 +1,9 @@
 #!/bin/bash
 
 if [ -f "$1/composer.json" ]; then
-    echo "PHP (composer.json)" && exit 0
+    echo "PHP2 (composer.json)" && exit 0
 elif [ -f "$1/index.php" ]; then
-    echo "PHP (classic)" && exit 0
+    echo "PHP3 (classic)" && exit 0
 else
     echo "no" && exit 1
 fi
